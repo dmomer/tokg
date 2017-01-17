@@ -1,0 +1,14 @@
+//get courier daily routes
+[GET] localhost:5556/api/v1/summary/:COURIER_ID
+
+//get courier last location
+[GET] localhost:5556/api/v1/courier/route/:COURIER_ID
+
+//new courier coordinate
+
+[POST] localhost:5556/api/v1/coordinate
+[BODY] => {
+  	"courierId": "587e96c27ffdcf1cfb2ce5d4",//courier id for new location
+  	"coordinate": [41.001759, 29.095316] //courier current location (lat, long)
+}
+

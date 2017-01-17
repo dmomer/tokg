@@ -1,0 +1,8 @@
+{
+  "env": {
+    "DB": "mongodb://localhost:27017/kapgel_dev",
+    "httpPort": 5556,
+    "requestTimeout": 5000,
+    "NODE_ENV": "dev"
+  }
+}
