@@ -12,3 +12,9 @@
   	"coordinate": [41.001759, 29.095316] //courier current location (lat, long)
 }
 
+//mongodb
+localhost:27017
+
+
+//start
+npm start
